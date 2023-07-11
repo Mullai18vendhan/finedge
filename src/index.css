@@ -64,6 +64,14 @@ hr{
   color: gray !important;
 }
 
+#basic{
+  color: #ffdbaa !important;
+}
+
+#pro{
+  color: blue !important;
+}
+
 #s-1, #s-2, #s-3, .uk-card{
   transition: all 0.7s;
   cursor: pointer;

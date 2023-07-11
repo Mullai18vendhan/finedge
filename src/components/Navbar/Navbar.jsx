@@ -11,10 +11,14 @@ export default function Navbar(){
                     <div className="uk-container uk-container-expand">
                         <div data-uk-navbar>
                             <div id="navbar">
+
+                                <a href='.'>
                                 <h1 id='brand'> 
                                     <img src='https://img.icons8.com/ios-filled/50/000000/wallet.png'/>
                                  FinEdge. </h1>
-                                <div>
+                                 </a>
+
+                                <div id='web-menu'>
                                     <ul className="uk-navbar-nav">
                                         <li className="uk-active"><a href="#"> Home </a></li>
                                         <li className="uk-active"><a href="#about"> About </a></li>
@@ -22,6 +26,21 @@ export default function Navbar(){
                                         <li className="uk-active"><a href="#contact"> Contact</a></li>
                                     </ul>
                                 </div>
+
+                                <div id='menu'>
+                                <button id='menu-btn' class="uk-button" type="button"> <span data-uk-icon='menu'/> </button>
+                                    <div data-uk-dropdown="mode: click">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                        <li className="uk-active"><a href="#"> Home </a></li>
+                                        <li className="uk-active"><a href="#about"> About </a></li>
+                                        <li className="uk-active"><a href="#services"> Services</a></li>
+                                        <li className="uk-active"><a href="#contact"> Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+
+
                             </div>
                         </div>
                     </div>

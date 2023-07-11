@@ -14,6 +14,7 @@
 #brand{
     font-family: 'Poppins', sans-serif !important;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .uk-navbar-container{
@@ -38,21 +39,44 @@ a{
 
 button{
     border-radius: 12px !important;
-    border: 0.5px solid black;
-    padding: 2% 4%;
-    background: white;
-    text-transform: capitalize;
-    transition: all 0.7s;
-    cursor: pointer;
-    font-weight: 500;
+    border: 0.5px solid black !important;
+    padding: 2% 4% !important;
+    background: white !important;
+    text-transform: capitalize !important;
+    transition: all 0.7s !important;
+    cursor: pointer !important;
+    font-weight: 500 !important;
 }
 
-button:hover{
-    background: black;
-    color: white;
+button:not(#menu-btn):hover{
+    background: black !important;
+    color: white !important;
 }
 
 button#submit:hover{
     color: black !important;
     background: #73F343 !important;
+}
+
+#menu-btn{
+    color: black !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+#menu{
+    display: none;
+}
+
+@media (max-width:799px) {
+    #navbar{
+        align-items:flex-start;
+        padding-top: 5%;
+    }
+    #menu{
+        display: block;
+    }
+    #web-menu{
+        display: none;
+    }
 }

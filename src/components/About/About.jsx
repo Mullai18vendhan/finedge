@@ -4,7 +4,7 @@ export default function About(){
         <section id="about">
 
             <h2 className='sub-h center'> About Us </h2>
-            <div className="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-2@l uk-text-center" data-uk-grid 
+            <div className="uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-2@l uk-text-center" data-uk-grid 
                 style={{padding:'5% 7%'}}>
                     
                 <div style={{paddingTop:'3%', textAlign:'left'}}>
