@@ -1,0 +1,22 @@
+
+
+#about{
+  padding: 5% 7% 0%;
+}
+
+#services{
+  padding: 5% 7% 0%;
+}
+
+#contact{
+  padding: 5% 7% 5%;
+}
+
+#footer{
+  padding: 5% 7% 5%;
+  background: black;
+}
+
+#footer li, #footer h4, .uk-list{
+  width: max-content;
+}

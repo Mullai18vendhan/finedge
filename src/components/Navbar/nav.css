@@ -1,0 +1,58 @@
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2% 5%;
+}
+
+#brand{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+}
+
+.uk-navbar-container{
+    background: white;
+}
+
+#landing{
+    background: white;
+    padding: 7% 15%;
+}
+
+#land-left{
+    padding-left: 0 !important;
+    text-align: left;
+}
+
+a{
+    text-transform: capitalize !important;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+button{
+    border-radius: 12px !important;
+    border: 0.5px solid black;
+    padding: 2% 4%;
+    background: white;
+    text-transform: capitalize;
+    transition: all 0.7s;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+button#submit:hover{
+    color: black !important;
+    background: #73F343 !important;
+}
