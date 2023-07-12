@@ -9,6 +9,16 @@
     justify-content: space-between;
     align-items: baseline;
     padding: 2% 5%;
+    background: white;
+}
+
+.uk-sticky{
+    transition: all 0.7s ease-in-out;
+}
+
+.uk-sticky-below .uk-navbar-container, .uk-sticky-below #navbar{
+    transition: all 0.7s ease-in-out;
+    background: #73F343 !important;
 }
 
 #brand{
@@ -23,7 +33,7 @@
 
 #landing{
     background: white;
-    padding: 7% 15%;
+    padding: 5% 15%;
 }
 
 #land-left{
@@ -56,6 +66,7 @@ button:not(#menu-btn):hover{
 button#submit:hover{
     color: black !important;
     background: #73F343 !important;
+    border-color: #73F343 !important;
 }
 
 #menu-btn{

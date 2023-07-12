@@ -3,7 +3,7 @@ import wallet from './wallet50.png';
 export default function Footer(){
 
     return(
-        <section id="footer">
+        <section id="footer" className='foo'>
 
             <div data-uk-grid style={{ padding:'5%' }}>
 
